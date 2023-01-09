@@ -20,7 +20,8 @@ import MarkDown from './md-content';
  */
 const TrackDetail = ({ track }) => {
   const { title, description, thumbnail, author, durationInSeconds, modulesCount, modules, numberOfViews } = track;
-
+  console.log("##########")
+  console.log(track)
   return (
     <ContentSection>
       <CoverImage src={thumbnail} alt="" />
